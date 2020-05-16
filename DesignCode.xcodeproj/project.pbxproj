@@ -14,6 +14,7 @@
 		C48BC082246FDECC0062F4E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48BC081246FDECC0062F4E1 /* Preview Assets.xcassets */; };
 		C48BC085246FDECC0062F4E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48BC083246FDECC0062F4E1 /* LaunchScreen.storyboard */; };
 		C48BC090246FDECC0062F4E1 /* DesignCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48BC08F246FDECC0062F4E1 /* DesignCodeTests.swift */; };
+		C48BC09B247003150062F4E1 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48BC09A247003150062F4E1 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		C48BC08B246FDECC0062F4E1 /* DesignCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48BC08F246FDECC0062F4E1 /* DesignCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeTests.swift; sourceTree = "<group>"; };
 		C48BC091246FDECC0062F4E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C48BC09A247003150062F4E1 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				C48BC078246FDECB0062F4E1 /* AppDelegate.swift */,
 				C48BC07A246FDECB0062F4E1 /* SceneDelegate.swift */,
 				C48BC07C246FDECB0062F4E1 /* ContentView.swift */,
+				C48BC09A247003150062F4E1 /* MenuView.swift */,
 				C48BC07E246FDECC0062F4E1 /* Assets.xcassets */,
 				C48BC083246FDECC0062F4E1 /* LaunchScreen.storyboard */,
 				C48BC086246FDECC0062F4E1 /* Info.plist */,
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C48BC079246FDECB0062F4E1 /* AppDelegate.swift in Sources */,
+				C48BC09B247003150062F4E1 /* MenuView.swift in Sources */,
 				C48BC07B246FDECB0062F4E1 /* SceneDelegate.swift in Sources */,
 				C48BC07D246FDECB0062F4E1 /* ContentView.swift in Sources */,
 			);
