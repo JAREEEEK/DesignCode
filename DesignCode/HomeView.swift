@@ -11,9 +11,10 @@ import SwiftUI
 struct HomeView: View {
     @Binding var showProfile: Bool
     @State var showUpdate = false
+    @Binding var showContent: Bool
     
     var body: some View {
-        VStack {
+        ScrollView {
             HStack {
                 Text("Watching")
                     .font(.system(size: 28, weight: .bold))
@@ -60,7 +61,22 @@ struct HomeView: View {
                 }
                 .padding(30)
                 .padding(.bottom, 30)
+                .onTapGesture {
+                    self.showContent = true
+                }
             }
+            .offset(y: -30)
+            
+            HStack {
+                Text("Courses")
+                    .font(.title).bold()
+                Spacer()
+            }
+            .padding(.leading, 30)
+            .offset(y: -60)
+            
+            SectionView(section: sectionData[2], width: screen.width - 60, height: 275)
+                .offset(y: -60)
             
             Spacer()
         }
@@ -69,12 +85,14 @@ struct HomeView: View {
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView(showProfile: .constant(false))
+        HomeView(showProfile: .constant(false), showContent: .constant(false))
     }
 }
 
 struct SectionView: View {
     var section: Section
+    var width: CGFloat = 275
+    var height: CGFloat = 275
     
     var body: some View {
         VStack {
@@ -97,7 +115,7 @@ struct SectionView: View {
         }
         .padding(.top, 20)
         .padding(.horizontal, 20)
-        .frame(width: 275, height: 275)
+        .frame(width: width, height: height)
         .background(section.color)
         .cornerRadius(30)
         .shadow(color: section.color.opacity(0.3), radius: 20, x: 0, y: 20)
