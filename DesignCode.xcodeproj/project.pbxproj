@@ -22,6 +22,7 @@
 		C48BC09D24701E780062F4E1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48BC09C24701E780062F4E1 /* Home.swift */; };
 		C48BC09F247023C10062F4E1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48BC09E247023C10062F4E1 /* HomeView.swift */; };
 		C4AAC1DE24706ACB0008AC3F /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AAC1DD24706ACB0008AC3F /* RingView.swift */; };
+		C4DB147B2470731F004963BD /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB147A2470731F004963BD /* Modifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		C48BC09C24701E780062F4E1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		C48BC09E247023C10062F4E1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C4AAC1DD24706ACB0008AC3F /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		C4DB147A2470731F004963BD /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				C48BC07A246FDECB0062F4E1 /* SceneDelegate.swift */,
 				C48BC07C246FDECB0062F4E1 /* ContentView.swift */,
 				C4AAC1DD24706ACB0008AC3F /* RingView.swift */,
+				C4DB147A2470731F004963BD /* Modifiers.swift */,
 				C48BC09C24701E780062F4E1 /* Home.swift */,
 				C476B4E624702DCA00723E74 /* UpdateList.swift */,
 				C476B4E8247030BB00723E74 /* UpdateDetail.swift */,
@@ -236,6 +239,7 @@
 				C476B4EB247032C600723E74 /* UpdateStore.swift in Sources */,
 				C476B4E724702DCA00723E74 /* UpdateList.swift in Sources */,
 				C48BC09B247003150062F4E1 /* MenuView.swift in Sources */,
+				C4DB147B2470731F004963BD /* Modifiers.swift in Sources */,
 				C476B4E9247030BB00723E74 /* UpdateDetail.swift in Sources */,
 				C4AAC1DE24706ACB0008AC3F /* RingView.swift in Sources */,
 				C48BC09D24701E780062F4E1 /* Home.swift in Sources */,
