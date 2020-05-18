@@ -32,6 +32,7 @@
 		C4DB147B2470731F004963BD /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB147A2470731F004963BD /* Modifiers.swift */; };
 		C4E58B40247286EA00D48628 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = C4E58B3F247286EA00D48628 /* SDWebImageSwiftUI */; };
 		C4E58B4224728E2C00D48628 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E58B4124728E2C00D48628 /* BlurView.swift */; };
+		C4E58B442472CCE500D48628 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E58B432472CCE500D48628 /* Buttons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		C4AAC1DD24706ACB0008AC3F /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 		C4DB147A2470731F004963BD /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 		C4E58B4124728E2C00D48628 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		C4E58B432472CCE500D48628 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				C4AAC1DD24706ACB0008AC3F /* RingView.swift */,
 				C4DB147A2470731F004963BD /* Modifiers.swift */,
 				C48BC09C24701E780062F4E1 /* Home.swift */,
+				C4E58B432472CCE500D48628 /* Buttons.swift */,
 				C4029A5224707AD200D1CE0E /* CourseList.swift */,
 				C4649B4E24709471001E2199 /* CourseStore.swift */,
 				C4649B4324708B48001E2199 /* CourseDetail.swift */,
@@ -283,6 +286,7 @@
 				C48BC07B246FDECB0062F4E1 /* SceneDelegate.swift in Sources */,
 				C4649B4824708EE1001E2199 /* PostList.swift in Sources */,
 				C48BC07D246FDECB0062F4E1 /* ContentView.swift in Sources */,
+				C4E58B442472CCE500D48628 /* Buttons.swift in Sources */,
 				C4649B4424708B48001E2199 /* CourseDetail.swift in Sources */,
 				C4E58B4224728E2C00D48628 /* BlurView.swift in Sources */,
 				C476B4ED2470357800723E74 /* TabBar.swift in Sources */,
