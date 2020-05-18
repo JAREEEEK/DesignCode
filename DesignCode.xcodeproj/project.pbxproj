@@ -29,6 +29,7 @@
 		C48BC09D24701E780062F4E1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48BC09C24701E780062F4E1 /* Home.swift */; };
 		C48BC09F247023C10062F4E1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48BC09E247023C10062F4E1 /* HomeView.swift */; };
 		C4AAC1DE24706ACB0008AC3F /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AAC1DD24706ACB0008AC3F /* RingView.swift */; };
+		C4CA449D2472EC6F00E3A1FB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA449C2472EC6F00E3A1FB /* LoginView.swift */; };
 		C4DB147B2470731F004963BD /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB147A2470731F004963BD /* Modifiers.swift */; };
 		C4E58B40247286EA00D48628 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = C4E58B3F247286EA00D48628 /* SDWebImageSwiftUI */; };
 		C4E58B4224728E2C00D48628 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E58B4124728E2C00D48628 /* BlurView.swift */; };
@@ -71,6 +72,7 @@
 		C48BC09C24701E780062F4E1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		C48BC09E247023C10062F4E1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C4AAC1DD24706ACB0008AC3F /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		C4CA449C2472EC6F00E3A1FB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		C4DB147A2470731F004963BD /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 		C4E58B4124728E2C00D48628 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		C4E58B432472CCE500D48628 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				C476B4EC2470357800723E74 /* TabBar.swift */,
 				C4E58B4124728E2C00D48628 /* BlurView.swift */,
 				C48BC09E247023C10062F4E1 /* HomeView.swift */,
+				C4CA449C2472EC6F00E3A1FB /* LoginView.swift */,
 				C48BC09A247003150062F4E1 /* MenuView.swift */,
 				C48BC07E246FDECC0062F4E1 /* Assets.xcassets */,
 				C48BC083246FDECC0062F4E1 /* LaunchScreen.storyboard */,
@@ -286,6 +289,7 @@
 				C48BC07B246FDECB0062F4E1 /* SceneDelegate.swift in Sources */,
 				C4649B4824708EE1001E2199 /* PostList.swift in Sources */,
 				C48BC07D246FDECB0062F4E1 /* ContentView.swift in Sources */,
+				C4CA449D2472EC6F00E3A1FB /* LoginView.swift in Sources */,
 				C4E58B442472CCE500D48628 /* Buttons.swift in Sources */,
 				C4649B4424708B48001E2199 /* CourseDetail.swift in Sources */,
 				C4E58B4224728E2C00D48628 /* BlurView.swift in Sources */,
