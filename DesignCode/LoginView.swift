@@ -17,6 +17,7 @@ struct LoginView: View {
     @State var alertMessage = "Something went wrong"
     @State var isLoading = false
     @State var isSuccess = false
+    @EnvironmentObject var user: UserStore
     
     func login() {
         self.hideKeyboard()
@@ -30,11 +31,14 @@ struct LoginView: View {
                 self.showAlert = true
             } else {
                 self.isSuccess = true
+                self.user.isLogged = true
+                UserDefaults.standard.set(true, forKey: "isLogged")
                 
                 DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                    self.isSuccess = false
                     self.email = ""
                     self.password = ""
+                    self.isSuccess = false
+                    self.user.showLogin = false
                 }
             }
         }
@@ -99,7 +103,7 @@ struct LoginView: View {
                     }
                 }
                 .frame(height: 136)
-                .frame(maxWidth: .infinity)
+                .frame(maxWidth: 712)
                 .background(BlurView(style: .systemMaterial))
                 .clipShape(RoundedRectangle(cornerRadius: 30, style: .continuous))
                 .shadow(color: Color.black.opacity(0.15), radius: 20, x: 0, y: 20)
@@ -188,16 +192,16 @@ struct CoverView: View {
                     .offset(x: -150, y: -200)
                     .rotationEffect(Angle(degrees: show ? 360+90 : 90))
                     .blendMode(.plusDarker)
-                    //                    .animation(Animation.linear(duration: 120).repeatForever(autoreverses: false))
-                    .animation(nil)
+                    .animation(Animation.linear(duration: 120).repeatForever(autoreverses: false))
+//                    .animation(nil)
                     .onAppear { self.show = true }
                 
                 Image(uiImage: #imageLiteral(resourceName: "Blob"))
                     .offset(x: -200, y: -250)
                     .rotationEffect(Angle(degrees: show ? 360 : 0), anchor: .leading)
                     .blendMode(.overlay)
-                    //                    .animation(Animation.linear(duration: 120).repeatForever(autoreverses: false))
-                    .animation(nil)
+                    .animation(Animation.linear(duration: 120).repeatForever(autoreverses: false))
+//                    .animation(nil)
             }
         )
             .background(Image(uiImage: #imageLiteral(resourceName: "Card3")).offset(x: viewState.width/25, y: viewState.height/25),
